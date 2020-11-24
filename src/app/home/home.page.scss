@@ -1,5 +1,6 @@
 ion-content{
-    --background:#eeb005!important;
+    --background:#f9c237!important;
+    height: 100vh;
 }
 .rojo{
     color:red;
@@ -8,18 +9,18 @@ ion-content{
     font-size:5em;
     text-transform: uppercase;
 
-    background: #eeb005;
+    background: #f9c237;
     color:#fff;
     font-weight: 600;
     text-align:center;
-    margin-top:30px;
+    margin-top:10px;
     margin-bottom:10px!important;
 }
 .bloqueConsultorio{
-    --background: #eeb005!important;
+    --background: #f9c237!important;
     text-align: center;
     h3{
-        background: #079eb3;
+        background: #0c75ae;
         margin-top:-1px;
         padding-top: 5px ;
         padding-bottom:15px;
@@ -31,19 +32,19 @@ ion-content{
     }
 }
 #contenedorPersonas{
-    background: #eeb005;
-    margin-top:20px;
+    background: #f9c237;
+    /* margin-top:20px; */
 /*     margin-bottom:10px; */
 }
 .contenedorPersonas{
     width: 95%;
     margin-left: 2.5%;
-    border: 4px solid #079eb3;
+    border: 4px solid #0c75ae;
     border-top-right-radius: 32px;
     height: 405px!important;
 }
 ion-list{
-    --background: #007198!important;
+    --background: #013546!important;
     margin-top: -40px;
 }
 ion-item{
@@ -73,32 +74,26 @@ ion-item:last-child{
 }
 .nombrePersona{
     color:#fff;
-    font-size:1.5em;
+    font-size:1.3em;
     font-weight:300;
 }
 .atencionA{
-    color:#07b37a;
-    font-size:38px;
+    color:#01b378;
+    font-size:32px;
     font-weight:600;
 /*     margin-top:15px!important; */
 }
 .atencionAE{
     color:#fff;
-    background:#07b37a;
+    background:#01b378;
     border-top-right-radius: 10px;
     font-size:1.2em;
-/*     padding: 2px 8px;
-    border-radius:50%; */
     font-weight:600;
-/*     margin-top:15px!important;
-    margin-bottom:15px!important; */
 }
 .esperA{
     color:#2D758F;
-    font-size:35px;
-    font-weight:600;
-/*     margin-top:-5px!important; */
-    /* margin-bottom:15px!important; */
+    font-size:32px;
+    font-weight:600; 
 }
 .esperAE{
     color:#fff;
@@ -106,44 +101,40 @@ ion-item:last-child{
     font-size:1.2em;
     font-weight:600;
     border-top-right-radius: 10px;
-/*     padding: 2px 5px; */
-    /* border-radius:50%; */
-/*     margin-top:15px!important;
-    margin-bottom:15px!important; */
 }
 .citadoA{
-    color:#e4e4e4;
-    font-size:38px;
+    color:#fff;
+    font-size:32px;
     font-weight:600;
    /*  margin-top:-5px!important; */
 
     text-transform:uppercase!important;
 }
 .citadoAE{
-    color:#e4e4e4;
+    color:#fff;
     background:#b8b7b5;
     font-weight:600;
-    font-size:1.2em;
+    font-size:1.1em;
     border-top-right-radius: 10px;
 }
 .finalizadoA{
     color:#f7290e;
     /* background:#f7290e; */
-    font-size:38px;
+    font-size:32px;
     font-weight:600;
 }
 .finalizadoAE{
-    color:#e4e4e4;
+    color:#fff;
     background:#f7290e;
     border-top-right-radius: 10px;
     /* padding: 2px 2px; */
 /*     border-radius:50%; */
     font-weight:600;
-    font-size:1.2em;
+    font-size:1.1em;
 }
 .preconsultAE{
     color:#fff;
-    background:#eeb005;
+    background:#f9c237;
    /*  padding: 2px 5px; */
     border-radius:50%;
     font-weight:600;
@@ -160,17 +151,14 @@ img{
     
 }
 .centrar{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    background:#eeb005;
+    background:#f9c237;
 }
 ul li{
     list-style-type: none;
 }
 .consultorio{
     color:#07b37a;
-    font-size:1.4em;
+    font-size:1.3em;
     font-weight: 500;
     margin-top:-20px;
     text-transform: uppercase;
@@ -178,7 +166,7 @@ ul li{
         margin-top:-20px;
         background: #07b37a;
         color:#fff;
-        padding: 3px 15px;
+        padding: 8px 15px;
         font-weight:600;
         margin-right: 10px;
         border-top-right-radius: 10px;
@@ -186,7 +174,7 @@ ul li{
 }
 .preconsulta{
     color:#2D758F;
-    font-size:1.6em;
+    font-size:1.3em;
     font-weight:500;
     text-transform: uppercase;
     margin-top:-20px;
@@ -194,7 +182,7 @@ ul li{
         background: #2D758F;
         margin-top:-20px;
         color:#fff;
-        padding: 3px 15px;
+        padding: 8px 15px;
         font-weight:600;
         margin-right: 10px;
         border-top-right-radius: 10px;
@@ -202,7 +190,7 @@ ul li{
 }
 .espera{
     color:#e4e4e4;
-    font-size:1.6em;
+    font-size:1.3em;
     font-weight:500;
     text-transform: uppercase;
     text-align:left;
@@ -211,7 +199,7 @@ ul li{
         background: #b8b7b5;
             margin-top:-20px;
         color:#e4e4e4;
-        padding: 3px 15px;
+        padding: 8px 15px;
         border-top-right-radius: 10px;
         font-weight:400;
         margin-right: 10px;
@@ -221,7 +209,7 @@ ul li{
 .finalizado{
     text-align:left;
     color:#f7290e;
-    font-size:1.6em;
+    font-size:1.3em;
     font-weight:500;
     margin-top:-20px;
     text-transform: uppercase;
@@ -229,7 +217,7 @@ ul li{
         margin-top:-20px;
         background: #f7290e;
         color:#e4e4e4;
-        padding: 3px 15px;
+        padding: 8px 15px;
         border-top-right-radius: 10px;
         font-weight:400;
         margin-right: 10px;
@@ -240,7 +228,7 @@ ul li{
 }
 .bloqueConsultorioHora{
     width:100%;
-    --background:#079eb3;
+    --background:#06456c;
 }
 /* .bloqueConsultorioHora h3{
     --background:#07b37a!important;
@@ -307,22 +295,22 @@ ul li{
     margin-bottom:10px!important;
 }
 .horaActual{
-    color:rgba(255, 255, 255, 0.76);
+    color:#fff;
     font-weight: 600;
     font-size:5em;
     text-align: right;
     margin-right:50px;
-    margin-top:40px;
+    margin-top:10px;
 }
 
 .horasFondo{
     color:#fff;
-    font-size:1.5em;
-    font-weight:400;
+    font-size:1.3em;
+    font-weight:500;
     background: #2D758F;
     padding:0 3px;
     border-top-right-radius: 10px;
-    height: 45px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,9 +324,11 @@ ul li{
 }
 
 #contenedorTitulo{
-    height: 120px;
-    margin-top:-30px;
+    height: 100px;
     margin-bottom:10px;
+    img{
+        margin-top:10px;
+    }
  /*    border:1px solid blue; */
 }
 .nombrePaciente{
@@ -349,6 +339,7 @@ ul li{
 #containerFilas{
     display: flex;
     align-items: center;
+    margin-top:-20px;
 }
 #contenedorGlosa{
     height: 60px!important;
@@ -365,6 +356,13 @@ ul li{
 }
 .containerDatos{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+}
+ion-row{
+    margin:0!important;
+    padding:0!important;
+}
+.list-md{
+    margin-top:-32px!important;
 }
