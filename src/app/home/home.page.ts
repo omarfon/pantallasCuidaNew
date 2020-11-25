@@ -51,18 +51,18 @@ checkTime(i) {
 }
 
   getHorasPaciente() {
-    /* setInterval(() => {
+    setInterval(() => {
       this.horaPvr.getHoras().subscribe(data => {
         this.horas = data;
         console.log(this.horas);
       });
-    }, 10000); */
+    }, 10000);
     
     
-      this.horaPvr.getHoras().subscribe(data => {
+/*       this.horaPvr.getHoras().subscribe(data => {
         this.horas = data;
         console.log(this.horas);
-      });
+      }); */
     
   }
 }
