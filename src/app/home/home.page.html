@@ -42,7 +42,7 @@
                               </ion-col>
                               <ion-col size="8" class="nombrePaciente">
                                 <ion-item  class="containerNombre">
-                                  <p *ngIf="persona.nombre == null" class="vacio">Disponible</p>
+                                  <p *ngIf="persona.nombre == null" class="vacio">DISPONIBLE</p>
                                   <p  [ngClass]="{'atencionA' : persona.estado == 'A', 'esperA' : persona.estado == 'E', 'citadoA': persona.estado == 'C' , 'finalizadoA': persona.estado == 'F'}" > {{persona.nombre | slice:0:1}}. {{persona.apellido1}}</p>
                                 </ion-item>
                               </ion-col>  
@@ -81,7 +81,7 @@
                                 </ion-col>
                                 <ion-col size="8" class="nombrePaciente">
                                   <ion-item  class="containerNombre">
-                                    <p *ngIf="persona.nombre == null" class="vacio">Disponible</p>
+                                    <p *ngIf="persona.nombre == null" class="vacio">DISPONIBLE</p>
                                     <p  [ngClass]="{'atencionA' : persona.estado == 'A', 'esperA' : persona.estado == 'E', 'citadoA': persona.estado == 'C' , 'finalizadoA': persona.estado == 'F'}" > {{persona.nombre | slice:0:1}}. {{persona.apellido1}}</p>
                                   </ion-item>
                                 </ion-col>  
